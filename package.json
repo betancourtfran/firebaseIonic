@@ -1,7 +1,6 @@
 {
-  "name": "prueba",
+  "name": "af2prueba",
   "author": "Francisco Betancourt",
-  "version": "1.0",
   "homepage": "http://www.franciscobetancourt.com/",
   "private": true,
   "scripts": {
