@@ -1,9 +1,12 @@
-<ion-buttons end>
-  <button ion-button icon-only (click)="addSong()">
-    <ion-icon name="add"></ion-icon>
-  </button>
-</ion-buttons>
-
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="addSong()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
 <ion-content>
   <ion-item *ngFor="let song of songs | async" (click)="showOptions(song.$key, song.title)" >
       {{song.title}}

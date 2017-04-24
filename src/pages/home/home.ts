@@ -82,7 +82,7 @@ export class HomePage {
       message: "Actualiza el nombre para esta cancion",
       inputs: [
         {
-          name: 'titulo',
+          name: 'title',
           placeholder: 'Titulo',
           value: songTitle
         }
